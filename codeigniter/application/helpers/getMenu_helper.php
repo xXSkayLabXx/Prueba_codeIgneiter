@@ -4,12 +4,12 @@ function main_menu(){
     return array(
         //estructura del login
         array(
-            'title' => 'login',
+            'title' => 'Login',
             'url' => base_url(),
         ),
         //estructura del registro
         array(
-            'title' => 'login',
+            'title' => 'Registro',
             'url' => base_url(),
         ),
     );
