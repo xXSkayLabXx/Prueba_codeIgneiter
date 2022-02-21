@@ -22,4 +22,14 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+	
+		public function vistas()
+		{
+			$data['titulo'] = 'titulo desde la vista';
+			$data['lista'] = arra('negro','azul','blanco');
+						
+			$this->load->view('vistas');
+			$this->load->view('template/footer');
+		}
+	
 }
