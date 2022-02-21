@@ -7,11 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><?= $titulo ?></h1>
-    <ul>
-        <?php foreach($lista as $item): ?>
-            <li><?= $item?></li>
-        <?php endforeach; ?>
-    </ul>
+ <h1>Registro</h1>    
 </body>
 </html>

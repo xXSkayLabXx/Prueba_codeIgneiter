@@ -25,10 +25,10 @@ class Welcome extends CI_Controller {
 	
 		public function vistas()
 		{
-			$data['titulo'] = 'titulo desde la vista';
-			$data['lista'] = arra('negro','azul','blanco');
-						
-			$this->load->view('vistas');
+			$data['titulo'] = 'Titulo desde la vista';
+			$data['lista'] = array('negro','azul','blanco');
+
+			$this->load->view('vistas',$data);
 			$this->load->view('template/footer');
 		}
 	
