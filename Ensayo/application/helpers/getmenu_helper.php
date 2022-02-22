@@ -10,7 +10,7 @@ function main_menu(){
         //estructura del registro
         array(
             'title' => 'Registro',
-            'url' => base_url(),
+            'url' => base_url('index.php/registro'),
         ),
     );
 }

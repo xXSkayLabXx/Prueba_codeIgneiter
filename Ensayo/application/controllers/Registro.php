@@ -6,7 +6,8 @@ class Registro extends CI_Controller {
 		parent::__construct();
 		$this->load->helper(array('getmenu','url'));
 	}
-    public function index(){
+    public function index()
+    {
         $data['menu'] = main_menu();
         $this->load->view('registro',$data);
     }
